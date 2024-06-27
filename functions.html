@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function personalInformation(){
+        var name="saurabh vikas kamane"
+        var qualification="Bachelor of Computer Applications"
+        document.write(name,"<br><br>",qualification)
+    }
+    personalInformation()
+    function age(a){
+        if(a<18){
+            document.write("<br><br>you are not eligible for voting")
+        }else{
+            document.write("<br><br>you are eligible for voting")
+        }
+    }
+    age(19)
+    function arithmetics(num1,num2,op){
+        if(op=="+"){
+            return num1+num2;
+        }else if(op=="-"){
+            return num1-num2;
+        }else if(op=="*"){
+            return num1*num2;
+        }else if(op=="/"){
+            return num1/num2;
+        }else{
+            return num1%num2;
+        }
+        
+    }
+    var arithmetic=arithmetics(20,10,"/")
+    document.write("<br><br>",arithmetic)
+    function basic(){
+        return "hello world"
+    }
+    var word=basic()
+    document.write("<br><br>",word)
+</script>
+</script>
+</html>
